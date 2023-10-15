@@ -1,0 +1,8 @@
+CREATE TABLE Ciudadano (
+    NumeroIdentificacion INT PRIMARY KEY,
+    Nombre VARCHAR(255),
+    Direccion VARCHAR(255),
+    FechaNacimiento DATE,
+    CorreoElectronico VARCHAR(255),
+    NumeroTelefono VARCHAR(15)
+);
